@@ -8,8 +8,6 @@ def index(request):
     cars = Car.objects.all()
     users = CustomUser.objects.filter(
         is_active=True,
-        is_staff=True,
-        is_superuser=False
     )
     comments = CustomUser.objects.filter(
         is_active=True,
@@ -18,7 +16,7 @@ def index(request):
     )
     return render(
         request,
-        'index.html',
+        'index1.html',
         context={
             'cars': cars,
             'users': users,
