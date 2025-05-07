@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/muqaddas/Desktop/carplace/.venv/bin/python3.12
+=======
+#!/Users/muqaddas/Desktop/car_rental/.venv/bin/python3.12
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
 # -*- coding: utf-8 -*-
 import re
 import sys

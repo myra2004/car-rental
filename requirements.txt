@@ -1,4 +1,9 @@
 asgiref==3.8.1
 Django==5.2
 pillow==11.2.1
+<<<<<<< HEAD
+=======
+psycopg2-binary==2.9.10
+python-dotenv==1.1.0
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
 sqlparse==0.5.3

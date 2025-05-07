@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Django settings for core project.
 
@@ -13,6 +14,12 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os
 from dotenv import load_dotenv
+=======
+from pathlib import Path
+from dotenv import load_dotenv
+import os
+
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
 
 load_dotenv()
 
@@ -24,7 +31,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-wr$fj0@eoib2&j8s%znbacnj(*-9r(@(_k0#t!$f$rk*ntk^u*'
+=======
+SECRET_KEY = 'django-insecure-jq2)02skd*a@3h@-xztvo*%_vi!yzo#j6r(d0*ma!#_c$9spes'
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -44,8 +55,13 @@ DJANGO_APPS = [
 ]
 
 LOCAL_APPS = [
+<<<<<<< HEAD
     'users',
     'cars',
+=======
+    'cars',
+    'users',
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
     'common',
 ]
 
@@ -70,7 +86,11 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [BASE_DIR / "templates"],
+=======
+        'DIRS': [BASE_DIR / 'templates'],
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -138,14 +158,25 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+<<<<<<< HEAD
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'mediafiles'
+=======
+STATICFILES_DIRS = [BASE_DIR / 'static']
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
+<<<<<<< HEAD
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+=======
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+>>>>>>> 464db674f306f71bb1f1c0192888868881727d73
